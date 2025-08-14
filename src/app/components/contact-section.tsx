@@ -37,7 +37,7 @@ export function ContactSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-serif font-black text-foreground mb-6">Get Your Free Quote Today</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Ready to experience the Elite Cleaning difference? Contact us for a free, no-obligation quote tailored to
+            Ready to experience the Spectacular Cleaning difference? Contact us for a free, no-obligation quote tailored to
             your specific cleaning requirements.
           </p>
         </div>

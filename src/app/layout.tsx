@@ -19,7 +19,7 @@ const openSans = Open_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Elite Cleaning Services London | Professional Commercial Cleaning",
+  title: "Spectacular Cleaning | Professional Commercial Cleaning",
   description:
     "Premier cleaning services for hotels, estates, and businesses across London. Trusted by leading establishments for exceptional commercial cleaning solutions.",
   generator: "v0.app",

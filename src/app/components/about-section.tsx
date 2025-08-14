@@ -15,7 +15,7 @@ export function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-3xl lg:text-5xl font-serif font-black text-foreground mb-6">
-              Why Choose Elite Cleaning London?
+              Why Choose Spectacular Cleaning?
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
               With over 15 years of experience serving London's hospitality and commercial sectors, we've built our

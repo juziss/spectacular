@@ -7,7 +7,7 @@ const testimonials = [
     role: "Hotel Manager",
     company: "The Langham London",
     content:
-      "Elite Cleaning has been our trusted partner for over 3 years. Their attention to detail and reliability is exceptional. Our guests consistently comment on the cleanliness of our facilities.",
+      "Spectacular has been our trusted partner for over 3 years. Their attention to detail and reliability is exceptional. Our guests consistently comment on the cleanliness of our facilities.",
     rating: 5,
   },
   {
@@ -15,7 +15,7 @@ const testimonials = [
     role: "Property Director",
     company: "Foxtons Estate Agents",
     content:
-      "We rely on Elite Cleaning for all our end-of-tenancy and pre-viewing cleans. They always deliver on time and to the highest standard, which is crucial for our business.",
+      "We rely on Spectacular for all our end-of-tenancy and pre-viewing cleans. They always deliver on time and to the highest standard, which is crucial for our business.",
     rating: 5,
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
     role: "Facilities Manager",
     company: "Canary Wharf Group",
     content:
-      "Professional, reliable, and eco-conscious. Elite Cleaning understands the demands of commercial properties and consistently exceeds our expectations.",
+      "Professional, reliable, and eco-conscious. Spectacular understands the demands of commercial properties and consistently exceeds our expectations.",
     rating: 5,
   },
 ]

@@ -6,7 +6,7 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-serif font-black text-primary mb-4">Elite Cleaning London</h3>
+            <h3 className="text-xl font-serif font-black text-primary mb-4">Spectacular Cleaning London</h3>
             <p className="text-secondary-foreground/80 mb-4 leading-relaxed">
               Professional cleaning services for London's hospitality, property, and business sectors. Trusted by
               leading establishments for over 15 years.
@@ -109,7 +109,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-secondary-foreground/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <div className="text-sm text-secondary-foreground/60">© 2024 Elite Cleaning London. All rights reserved.</div>
+          <div className="text-sm text-secondary-foreground/60">© 2024  Spectacular Cleaning Services. All rights reserved.</div>
           <div className="flex gap-6 text-sm text-secondary-foreground/60 mt-4 md:mt-0">
             <a href="#" className="hover:text-primary transition-colors">
               Privacy Policy

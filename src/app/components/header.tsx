@@ -28,7 +28,7 @@ export function Header() {
         {/* Main navigation */}
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center">
-            <h1 className="text-2xl font-serif font-black text-primary">Elite Cleaning</h1>
+            <h1 className="text-2xl font-serif font-black text-primary">Spectacular</h1>
             <span className="ml-2 text-sm text-muted-foreground font-medium">London</span>
           </div>
 

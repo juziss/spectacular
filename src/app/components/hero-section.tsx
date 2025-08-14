@@ -21,7 +21,7 @@ export function HeroSection() {
             </h1>
 
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Elite cleaning solutions for hotels, estate agents, and commercial properties across London. We deliver
+              Spectacular Cleaning solutions for hotels, estate agents, and commercial properties across London. We deliver
               exceptional results with fully trained, insured staff and eco-friendly products.
             </p>
 
