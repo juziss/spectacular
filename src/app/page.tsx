@@ -1,11 +1,23 @@
-export default function Home() {
+import { Header } from "@/components/header"
+import { HeroSection } from "@/components/hero-section"
+import { ServicesSection } from "@/components/services-section"
+import { AboutSection } from "@/components/about-section"
+import { TestimonialsSection } from "@/components/testimonials-section"
+import { ContactSection } from "@/components/contact-section"
+import { Footer } from "@/components/footer"
+
+export default function HomePage() {
   return (
-    <div>
-      <h1>
-          A wide variety of commercial cleaning and maintenance solutions for offices and businesses
-          With Spectacular Cleaning Services, you can count on a comprehensive range of services
-          designed to keep your workplace clean, safe, and running efficiently.
-      </h1>
+    <div className="min-h-screen">
+      <Header />
+      <main>
+        <HeroSection />
+        <ServicesSection />
+        <AboutSection />
+        <TestimonialsSection />
+        <ContactSection />
+      </main>
+      <Footer />
     </div>
   )
 }
