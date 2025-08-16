@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { CheckCircle, Star } from "lucide-react"
+import Image from "next/image"
 
 export function HeroSection() {
   return (
@@ -56,9 +57,11 @@ export function HeroSection() {
 
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden bg-muted">
-              <img
+              <Image
                 src="/placeholder-09sx7.png"
                 alt="Professional cleaning team at work in London"
+                width={600}
+                height={600}
                 className="w-full h-full object-cover"
               />
             </div>

@@ -50,7 +50,7 @@ export function ServicesSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-serif font-black text-third-green mb-6">Our Cleaning Services</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive cleaning solutions tailored to meet the unique needs of London's hospitality, property, and
+            Comprehensive cleaning solutions tailored to meet the unique needs of London&apos;s hospitality, property, and
             business sectors.
           </p>
         </div>

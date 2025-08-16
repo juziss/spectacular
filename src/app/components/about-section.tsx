@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Award, Users, Clock, Leaf } from "lucide-react"
+import Image from "next/image"
 
 const stats = [
   { icon: Award, value: "15+", label: "Years Experience" },
@@ -72,13 +73,15 @@ export function AboutSection() {
 
           <div className="relative">
             <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-muted">
-              <img
+              <Image
                 src="/placeholder-xxt9r.png"
                 alt="Professional cleaning equipment and team"
+                width={600}
+                height={750}
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute inset-0 bg-gradient-to-t from-principal-green/20 to-transparent rounded-2xl" />
+            <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-2xl" />
           </div>
         </div>
       </div>
