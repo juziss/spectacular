@@ -35,7 +35,7 @@ export function ContactSection() {
     <section id="contact" className="py-20 bg-muted">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-5xl font-serif font-black text-foreground mb-6">Get Your Free Quote Today</h2>
+          <h2 className="text-3xl lg:text-5xl font-serif font-black text-third-green mb-6">Get Your Free Quote Today</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Ready to experience the Spectacular Cleaning difference? Contact us for a free, no-obligation quote tailored to
             your specific cleaning requirements.
@@ -46,7 +46,7 @@ export function ContactSection() {
           <div>
             <Card className="mb-8">
               <CardHeader>
-                <CardTitle className="text-xl font-serif font-bold">Get in Touch</CardTitle>
+                <CardTitle className="text-xl text-third-green font-serif font-bold">Get in Touch</CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="flex items-start gap-4">
@@ -90,7 +90,7 @@ export function ContactSection() {
 
           <Card>
             <CardHeader>
-              <CardTitle className="text-xl font-serif font-bold">Request a Quote</CardTitle>
+              <CardTitle className="text-xl text-third-green font-serif font-bold">Request a Quote</CardTitle>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -148,7 +148,7 @@ export function ContactSection() {
                       value={formData.service}
                       onChange={handleChange}
                       required
-                      className="w-full px-3 py-2 border border-border rounded-md bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+                      className="w-full px-3 py-2 border border-border rounded-md bg-background text-third-green focus:outline-none focus:ring-2 focus:ring-ring"
                     >
                       <option value="">Select a service</option>
                       <option value="hotel">Hotel Cleaning</option>
@@ -176,7 +176,7 @@ export function ContactSection() {
                   />
                 </div>
 
-                <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
+                <Button type="submit" className="w-full bg-principal-green hover:bg-second-green/90 text-primary-foreground">
                   Get Free Quote
                 </Button>
               </form>

@@ -33,7 +33,7 @@ export function TestimonialsSection() {
     <section id="testimonials" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-5xl font-serif font-black text-foreground mb-6">What Our Clients Say</h2>
+          <h2 className="text-3xl lg:text-5xl font-serif font-black text-third-green mb-6">What Our Clients Say</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Don't just take our word for it. Here's what London's leading businesses say about our cleaning services.
           </p>
@@ -47,7 +47,7 @@ export function TestimonialsSection() {
 
                 <div className="flex mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="h-4 w-4 fill-primary text-primary" />
+                    <Star key={i} className="h-4 w-4 fill-principal-green text-principal-green" />
                   ))}
                 </div>
 

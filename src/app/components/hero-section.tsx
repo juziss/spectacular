@@ -16,8 +16,8 @@ export function HeroSection() {
               <span className="text-sm font-medium text-muted-foreground">Trusted by 500+ London businesses</span>
             </div>
 
-            <h1 className="text-4xl lg:text-6xl font-serif font-black text-foreground mb-6 leading-tight">
-              Professional Cleaning Services for <span className="text-primary">London Businesses</span>
+            <h1 className="text-4xl lg:text-6xl font-serif font-black text-principal-green mb-6 leading-tight">
+              Professional Cleaning Services for <span className="text-third-green">London Businesses</span>
             </h1>
 
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
@@ -26,13 +26,13 @@ export function HeroSection() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+              <Button size="lg" className="bg-principal-green hover:bg-second-green/90 text-primary-foreground">
                 Get Free Quote
               </Button>
               <Button
                 size="lg"
                 variant="outline"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
+                className="border-third-green text-third-green hover:bg-third-green hover:text-primary-foreground bg-transparent"
               >
                 View Services
               </Button>
@@ -63,11 +63,11 @@ export function HeroSection() {
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-card p-6 rounded-xl shadow-lg border border-border">
-              <div className="text-2xl font-serif font-black text-primary">15+</div>
+              <div className="text-2xl font-serif font-black text-third-green">15+</div>
               <div className="text-sm text-muted-foreground">Years Experience</div>
             </div>
             <div className="absolute -top-6 -right-6 bg-card p-6 rounded-xl shadow-lg border border-border">
-              <div className="text-2xl font-serif font-black text-primary">500+</div>
+              <div className="text-2xl font-serif font-black text-third-green">500+</div>
               <div className="text-sm text-muted-foreground">Happy Clients</div>
             </div>
           </div>

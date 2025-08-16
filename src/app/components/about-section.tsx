@@ -14,7 +14,7 @@ export function AboutSection() {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 className="text-3xl lg:text-5xl font-serif font-black text-foreground mb-6">
+            <h2 className="text-3xl lg:text-5xl font-serif font-black text-principal-green mb-6">
               Why Choose Spectacular Cleaning?
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
@@ -24,7 +24,7 @@ export function AboutSection() {
 
             <div className="space-y-6 mb-8">
               <div className="flex gap-4">
-                <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0" />
+                <div className="w-2 h-2 bg-principal-green rounded-full mt-3 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Fully Trained & Insured Staff</h3>
                   <p className="text-muted-foreground">
@@ -35,7 +35,7 @@ export function AboutSection() {
               </div>
 
               <div className="flex gap-4">
-                <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0" />
+                <div className="w-2 h-2 bg-principal-green rounded-full mt-3 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Eco-Friendly Products</h3>
                   <p className="text-muted-foreground">
@@ -46,7 +46,7 @@ export function AboutSection() {
               </div>
 
               <div className="flex gap-4">
-                <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0" />
+                <div className="w-2 h-2 bg-principal-green rounded-full mt-3 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Flexible Scheduling</h3>
                   <p className="text-muted-foreground">

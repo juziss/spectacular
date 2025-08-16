@@ -48,7 +48,7 @@ export function ServicesSection() {
     <section id="services" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-5xl font-serif font-black text-foreground mb-6">Our Cleaning Services</h2>
+          <h2 className="text-3xl lg:text-5xl font-serif font-black text-third-green mb-6">Our Cleaning Services</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Comprehensive cleaning solutions tailored to meet the unique needs of London's hospitality, property, and
             business sectors.
@@ -62,7 +62,7 @@ export function ServicesSection() {
               className="group hover:shadow-lg transition-all duration-300 border-border hover:border-primary/20"
             >
               <CardHeader>
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-third-green/20 transition-colors">
                   <service.icon className="h-6 w-6 text-primary" />
                 </div>
                 <CardTitle className="text-xl font-serif font-bold text-foreground">{service.title}</CardTitle>

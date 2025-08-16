@@ -3,6 +3,12 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  --color-principal-green: #26B0BF;
+  --color-second-green: #21BFBF;
+  --color-third-green: #0B3B59;
+}
+
 :root {
   /* Updated color palette to match client's brand colors */
   --card: oklch(1 0 0);

@@ -28,7 +28,8 @@ export function Header() {
         {/* Main navigation */}
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center">
-            <h1 className="text-2xl font-serif font-black text-primary">Spectacular</h1>
+            <img src="spectacular.png" alt="Logo" className="h-8 w-auto" />
+            <h1 className="text-2xl font-serif font-black text-principal-green">Spectacular</h1>
             <span className="ml-2 text-sm text-muted-foreground font-medium">London</span>
           </div>
 
@@ -46,7 +47,7 @@ export function Header() {
             <a href="#contact" className="text-foreground hover:text-primary transition-colors font-medium">
               Contact
             </a>
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">Get Quote</Button>
+            <Button className="bg-principal-green hover:bg-second-green/90 text-primary-foreground">Get Quote</Button>
           </nav>
 
           {/* Mobile menu button */}
