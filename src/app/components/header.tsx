@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Phone, Mail } from "lucide-react"
+import Image from "next/image"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -28,7 +29,7 @@ export function Header() {
         {/* Main navigation */}
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center">
-            <img src="spectacular.png" alt="Logo" className="h-8 w-auto" />
+            <Image src="/spectacular.png" alt="Logo" width={32} height={32} className="h-8 w-auto" />
             <h1 className="text-2xl font-serif font-black text-principal-green">Spectacular</h1>
             <span className="ml-2 text-sm text-muted-foreground font-medium">London</span>
           </div>

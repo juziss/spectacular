@@ -18,7 +18,7 @@ export function AboutSection() {
               Why Choose Spectacular Cleaning?
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              With over 15 years of experience serving London's hospitality and commercial sectors, we've built our
+              With over 15 years of experience serving London&apos;s hospitality and commercial sectors, we&apos;ve built our
               reputation on reliability, quality, and exceptional customer service.
             </p>
 
@@ -78,7 +78,7 @@ export function AboutSection() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-2xl" />
+            <div className="absolute inset-0 bg-gradient-to-t from-principal-green/20 to-transparent rounded-2xl" />
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-serif font-black text-third-green mb-4">Spectacular Cleaning London</h3>
             <p className="text-secondary-foreground/80 mb-4 leading-relaxed">
-              Professional cleaning services for London's hospitality, property, and business sectors. Trusted by
+              Professional cleaning services for London&apos;s hospitality, property, and business sectors. Trusted by
               leading establishments for over 15 years.
             </p>
             <div className="space-y-2">

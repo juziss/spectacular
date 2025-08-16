@@ -35,7 +35,7 @@ export function TestimonialsSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-serif font-black text-third-green mb-6">What Our Clients Say</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Don't just take our word for it. Here's what London's leading businesses say about our cleaning services.
+            Don&apos;t just take our word for it. Here&apos;s what London&apos;s leading businesses say about our cleaning services.
           </p>
         </div>
 
@@ -51,7 +51,7 @@ export function TestimonialsSection() {
                   ))}
                 </div>
 
-                <p className="text-muted-foreground mb-6 leading-relaxed">"{testimonial.content}"</p>
+                <p className="text-muted-foreground mb-6 leading-relaxed">&ldquo;{testimonial.content}&rdquo;</p>
 
                 <div className="border-t border-border pt-4">
                   <div className="font-semibold text-foreground">{testimonial.name}</div>
