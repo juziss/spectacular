@@ -1,10 +1,10 @@
-import { Button } from "@/components/ui/button"
-import { CheckCircle, Star } from "lucide-react"
-import Image from "next/image"
+import { Button } from "@/components/ui/button";
+import { CheckCircle, Star } from "lucide-react";
+import Image from "next/image";
 
 export function HeroSection() {
   return (
-    <section className="py-20 lg:py-32 bg-gradient-to-br from-background to-muted">
+    <section className="pt-8 pb-20 lg:pt-12 lg:pb-32 bg-gradient-to-br from-background to-muted">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -14,20 +14,28 @@ export function HeroSection() {
                   <Star key={i} className="h-5 w-5 fill-primary text-primary" />
                 ))}
               </div>
-              <span className="text-sm font-medium text-muted-foreground">Trusted by 500+ London businesses</span>
+              <span className="text-sm font-medium text-muted-foreground">
+                Trusted by 500+ London businesses
+              </span>
             </div>
 
             <h1 className="text-4xl lg:text-6xl font-serif font-black text-principal-green mb-6 leading-tight">
-              Professional Cleaning Services for <span className="text-third-green">London Businesses</span>
+              Professional Cleaning Services for{" "}
+              <span className="text-third-green">London Businesses</span>
             </h1>
 
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Spectacular Cleaning solutions for hotels, estate agents, and commercial properties across London. We deliver
-              exceptional results with fully trained, insured staff and eco-friendly products.
+              Spectacular Cleaning solutions for hotels, estate agents, and
+              commercial properties across London. We deliver exceptional
+              results with fully trained, insured staff and eco-friendly
+              products.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Button size="lg" className="bg-principal-green hover:bg-second-green/90 text-primary-foreground">
+              <Button
+                size="lg"
+                className="bg-principal-green hover:bg-second-green/90 text-primary-foreground"
+              >
                 Get Free Quote
               </Button>
               <Button
@@ -66,16 +74,22 @@ export function HeroSection() {
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-card p-6 rounded-xl shadow-lg border border-border">
-              <div className="text-2xl font-serif font-black text-third-green">15+</div>
-              <div className="text-sm text-muted-foreground">Years Experience</div>
+              <div className="text-2xl font-serif font-black text-third-green">
+                15+
+              </div>
+              <div className="text-sm text-muted-foreground">
+                Years Experience
+              </div>
             </div>
             <div className="absolute -top-6 -right-6 bg-card p-6 rounded-xl shadow-lg border border-border">
-              <div className="text-2xl font-serif font-black text-third-green">500+</div>
+              <div className="text-2xl font-serif font-black text-third-green">
+                500+
+              </div>
               <div className="text-sm text-muted-foreground">Happy Clients</div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
