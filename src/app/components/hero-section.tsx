@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export function HeroSection() {
   return (
-    <section className="pt-8 pb-20 lg:pt-12 lg:pb-32 bg-gradient-to-br from-background to-muted">
+    <section className="pt-4 pb-8 lg:pt-6 lg:pb-12 bg-gradient-to-br from-background to-muted">
       <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-[1.2fr_0.8fr] gap-12 items-start">
           <div>
             <div className="flex items-center gap-2 mb-6">
               <div className="flex">
@@ -73,7 +73,7 @@ export function HeroSection() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -left-6 bg-card p-6 rounded-xl shadow-lg border border-border">
+            <div className="absolute -bottom-2 -left-6 bg-card p-6 rounded-xl shadow-lg border border-border">
               <div className="text-2xl font-serif font-black text-third-green">
                 15+
               </div>
@@ -85,7 +85,7 @@ export function HeroSection() {
               <div className="text-2xl font-serif font-black text-third-green">
                 500+
               </div>
-              <div className="text-sm text-muted-foreground">Happy Clients</div>
+              <div className="text-xs text-muted-foreground">Happy Clients</div>
             </div>
           </div>
         </div>
