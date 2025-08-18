@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin } from "lucide-react"
+import { Phone, Mail, MapPin } from "lucide-react";
 
 export function Footer() {
   return (
@@ -6,10 +6,13 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-serif font-black text-third-green mb-4">Spectacular Cleaning London</h3>
+            <h3 className="text-xl font-serif font-black text-third-green mb-4">
+              Spectacular Cleaning London
+            </h3>
             <p className="text-secondary-foreground/80 mb-4 leading-relaxed">
-              Professional cleaning services for London&apos;s hospitality, property, and business sectors. Trusted by
-              leading establishments for over 15 years.
+              Professional cleaning services for London&apos;s hospitality,
+              property, and business sectors. Trusted by leading establishments
+              for over 15 years.
             </p>
             <div className="space-y-2">
               <div className="flex items-center gap-2">
@@ -28,35 +31,55 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-secondary-foreground mb-4">Services</h4>
+            <h4 className="font-semibold text-secondary-foreground mb-4">
+              Services
+            </h4>
             <ul className="space-y-2 text-sm text-secondary-foreground/80">
               <li>
-                <a href="#services" className="hover:text-primary transition-colors">
+                <a
+                  href="#services"
+                  className="hover:text-primary transition-colors"
+                >
                   Hotel Cleaning
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-primary transition-colors">
+                <a
+                  href="#services"
+                  className="hover:text-primary transition-colors"
+                >
                   Estate Agent Cleaning
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-primary transition-colors">
+                <a
+                  href="#services"
+                  className="hover:text-primary transition-colors"
+                >
                   Commercial Cleaning
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-primary transition-colors">
+                <a
+                  href="#services"
+                  className="hover:text-primary transition-colors"
+                >
                   Deep Cleaning
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-primary transition-colors">
+                <a
+                  href="#services"
+                  className="hover:text-primary transition-colors"
+                >
                   Emergency Cleaning
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-primary transition-colors">
+                <a
+                  href="#services"
+                  className="hover:text-primary transition-colors"
+                >
                   Specialist Cleaning
                 </a>
               </li>
@@ -64,20 +87,31 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-secondary-foreground mb-4">Company</h4>
+            <h4 className="font-semibold text-secondary-foreground mb-4">
+              Company
+            </h4>
             <ul className="space-y-2 text-sm text-secondary-foreground/80">
               <li>
-                <a href="#about" className="hover:text-primary transition-colors">
+                <a
+                  href="#about"
+                  className="hover:text-primary transition-colors"
+                >
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#testimonials" className="hover:text-primary transition-colors">
+                <a
+                  href="#testimonials"
+                  className="hover:text-primary transition-colors"
+                >
                   Testimonials
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-primary transition-colors">
+                <a
+                  href="#contact"
+                  className="hover:text-primary transition-colors"
+                >
                   Contact
                 </a>
               </li>
@@ -95,7 +129,9 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-secondary-foreground mb-4">Service Areas</h4>
+            <h4 className="font-semibold text-secondary-foreground mb-4">
+              Service Areas
+            </h4>
             <ul className="space-y-2 text-sm text-secondary-foreground/80">
               <li>Central London</li>
               <li>City of London</li>
@@ -108,21 +144,16 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-secondary-foreground/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <div className="text-sm text-secondary-foreground/60">© 2024  Spectacular Cleaning Services. All rights reserved. Developed by <a href="https://www.linkedin.com/in/jucoutinho/">Julia Coutinho</a> and <a href="https://www.linkedin.com/in/luizmmarques/">Luiz Miguel</a>.</div>
-          <div className="flex gap-6 text-sm text-secondary-foreground/60 mt-4 md:mt-0">
-            <a href="#" className="hover:text-primary transition-colors">
-              Privacy Policy
-            </a>
-            <a href="#" className="hover:text-primary transition-colors">
-              Terms of Service
-            </a>
-            <a href="#" className="hover:text-primary transition-colors">
-              Cookie Policy
-            </a>
+        <div className="border-t border-secondary-foreground/20 mt-8 pt-8 flex justify-center">
+          <div className="text-sm text-secondary-foreground/60">
+            © 2024 Spectacular Cleaning Services. All rights reserved. Developed
+            by{" "}
+            <a href="https://www.linkedin.com/in/jucoutinho/">Julia Coutinho</a>{" "}
+            and{" "}
+            <a href="https://www.linkedin.com/in/luizmmarques/">Luiz Miguel</a>.
           </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }
