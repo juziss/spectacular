@@ -11,7 +11,10 @@ export function HeroSection() {
             <div className="flex items-center gap-2 mb-6">
               <div className="flex">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="h-5 w-5 fill-primary text-primary" />
+                  <Star
+                    key={i}
+                    className="h-5 w-5 fill-[#26B0BF] text-[#26B0BF]"
+                  />
                 ))}
               </div>
               <span className="text-sm font-medium text-muted-foreground">
@@ -66,7 +69,7 @@ export function HeroSection() {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden bg-muted">
               <Image
-                src="/placeholder-09sx7.png"
+                src="/teste1.jpg"
                 alt="Professional cleaning team at work in London"
                 width={600}
                 height={600}
