@@ -66,7 +66,7 @@ export function HeroSection() {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden bg-muted">
               <Image
-                src="/placeholder-09sx7.png"
+                src="/quartalimpeza.jpg"
                 alt="Professional cleaning team at work in London"
                 width={600}
                 height={600}
